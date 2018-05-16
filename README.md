@@ -18,5 +18,5 @@ We should use two heaps (maximum and minimum) to keep two halfs of our input num
 
 >Next iterations:
 >1. If new input number bigger (or equal) than current median - add it in minimal heap. If not - in maximal heap.
->2. Check if one heap elements number more than another on 2(and more) - get element from bigger heap and add in to less heap.
+>2. Check if one heap elements number bigger than another on 2(and more) - get element from bigger heap and add in to less heap.
 >3. Update the current median. (If heaps has equal size - median is summ of their roots devided by 2. Another case - median is the root of minimal heap)
