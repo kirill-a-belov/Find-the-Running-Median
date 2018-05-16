@@ -1,0 +1,21 @@
+package main
+
+import (
+	"testing"
+)
+
+func BenchmarkMain(b *testing.B) {
+	n := b.N
+
+	x := &streamStorage{
+		subArrayMax: &heapMax{},
+		subArrayMin: &heapMin{},
+	}
+
+	for i := n; i >= 1; i-- {
+
+		x.AddElement(int32(i))
+
+		x.GetMedian()
+	}
+}
