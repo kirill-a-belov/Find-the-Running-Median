@@ -1,4 +1,4 @@
-"# Find the Running Median in Go
+# Find the Running Median in Go
 
 **Find-the-Running-Median** is a Go implementation of an efficient algorithm to compute the median of a dynamically growing data stream.  
 This project is designed for educational purposes, algorithm research, and performance benchmarking.
@@ -55,4 +55,4 @@ Contributions and forks are welcome.
 
 ## Tags
 
-#Go #algorithms #running_median #data_stream #real_time"
+#Go #algorithms #running_median #data_stream #real_time
